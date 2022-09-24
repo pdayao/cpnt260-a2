@@ -1,0 +1,53 @@
+.card {
+  /* Font */
+  font-family: 'Courier', sans-serif;
+
+
+  background-color: white;
+  --padding: 1rem;
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+  max-width: 40ch;
+  overflow: hidden;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  padding: var(--padding);
+  padding-bottom: 0;
+  margin-bottom: .5rem;
+}
+
+.card-header.card-image {
+  padding: 0;
+  overflow: hidden;
+}
+
+.card-header.card-image > img {
+  display: block;
+  width: 100%;
+  max-height: 200px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-body {
+  font-size: .9rem;
+  padding: 0 var(--padding);
+}
+
+.card-footer {
+  display: flex;
+  margin-top: 1rem;
+  padding: var(--padding);
+  padding-top: 0;
+}
+
+/* Hover State */
+.card:hover, .card:focus {
+  background: hsl(200, 89%, 79%);
+}
+
+
+
