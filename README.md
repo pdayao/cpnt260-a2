@@ -1,2 +1,5 @@
 # cpnt260-a2
-Assignment 2 - Single Card
+CPNT 260 Web Page Construction Fundamentals\
+Assignment 2 - Single Card\
+Patricia Dayao
+# A link to the GH Pages site
